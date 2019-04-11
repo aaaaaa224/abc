@@ -224,6 +224,30 @@
     <Compile Include="Migrations\201904110724567_LHDUC.Designer.cs">
       <DependentUpon>201904110724567_LHDUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904110750205_CreateTableCourse.cs" />
+    <Compile Include="Migrations\201904110750205_CreateTableCourse.Designer.cs">
+      <DependentUpon>201904110750205_CreateTableCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904110750472_PopulateCategoryTable.cs" />
+    <Compile Include="Migrations\201904110750472_PopulateCategoryTable.Designer.cs">
+      <DependentUpon>201904110750472_PopulateCategoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904110757308_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\201904110757308_AddNameColumnToApplicationUser.Designer.cs">
+      <DependentUpon>201904110757308_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904110759419_AddAttendance.cs" />
+    <Compile Include="Migrations\201904110759419_AddAttendance.Designer.cs">
+      <DependentUpon>201904110759419_AddAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904110800549_AddFollowingsTable.cs" />
+    <Compile Include="Migrations\201904110800549_AddFollowingsTable.Designer.cs">
+      <DependentUpon>201904110800549_AddFollowingsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904110805550_AddIsCanceledColumnToCourse.cs" />
+    <Compile Include="Migrations\201904110805550_AddIsCanceledColumnToCourse.Designer.cs">
+      <DependentUpon>201904110805550_AddIsCanceledColumnToCourse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -319,6 +343,24 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201904110724567_LHDUC.resx">
       <DependentUpon>201904110724567_LHDUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110750205_CreateTableCourse.resx">
+      <DependentUpon>201904110750205_CreateTableCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110750472_PopulateCategoryTable.resx">
+      <DependentUpon>201904110750472_PopulateCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110757308_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>201904110757308_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110759419_AddAttendance.resx">
+      <DependentUpon>201904110759419_AddAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110800549_AddFollowingsTable.resx">
+      <DependentUpon>201904110800549_AddFollowingsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904110805550_AddIsCanceledColumnToCourse.resx">
+      <DependentUpon>201904110805550_AddIsCanceledColumnToCourse.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
